@@ -12,11 +12,14 @@ root.title("Label")
 root.iconbitmap("hola.ico")
 root.resizable(1,1)
 
-# Label
-label = Label(root, text="Hola Mundo!").pack(anchor='nw')
-label = Label(root, text="Otra etiqueta!").pack(anchor='center')
-label = Label(root, text="Ultima etiqueta!").pack(anchor="se")
+# Label Creacion de objetos y variables
+Label(root, text="Hola Mundo!").pack(anchor='nw')
+label = Label(root, text="Otra etiqueta!")
+Label(root, text="Ultima etiqueta!").pack(anchor="se")
 
+# Configuracion de variables
+label.pack(anchor='center')
+label.config(bg="gray")
 
 
 
