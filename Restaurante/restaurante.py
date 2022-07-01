@@ -1,5 +1,6 @@
+# coding=utf-8
+
 import sqlite3
-from time import process_time_ns
 
 # Creo la funcion para crear la BD
 
