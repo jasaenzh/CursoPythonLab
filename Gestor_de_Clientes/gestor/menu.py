@@ -34,13 +34,17 @@ def loop():
             manager.find()
         if option == '3':
             print("Añadiendo los clientes... \n")
-            # TODO
+            manager.add()
+            print("\nCliente añadido correctamente")
         if option == '4':
             print("Modificando los clientes... \n")
-            # TODO
+            manager.edit()
+            print("Cliente modificado correctamente\n")
         if option == '5':
             print("Borrando los clientes... \n")
-            # TODO
+            if manager.delete():
+                print("Cliente borrado correctamente\n")
+            print("Cliente borrado correctamente\n")
         if option == '6':
             print("Saliendo... \n")
             break
